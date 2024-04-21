@@ -1,0 +1,32 @@
+.home header{
+ background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/istockphoto-1271351051-612x612.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+header h1{
+    font-size:5rem;
+}
+header h1, header h2{
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+.menu {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/istockphoto-1287190284-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+}
+img{
+    border-style: solid;
+    border-width: 5px;
+}
+@media only screen and (max-width:768px){
+    header h1{
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width:570px){
+    header h1{
+        font-size: 3rem;
+    }
+}
